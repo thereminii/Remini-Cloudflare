@@ -323,6 +323,82 @@ nav a:hover {
     margin-bottom: 12px;
 }
 
+.download-options {
+    background: rgba(0, 255, 213, 0.06);
+    border: 1px solid rgba(0, 255, 213, 0.14);
+    border-radius: 32px;
+    padding: 32px;
+    margin-top: 32px;
+}
+
+.download-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.download-header h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.download-header p {
+    color: #c2c2cb;
+    max-width: 560px;
+    line-height: 1.7;
+}
+
+.download-header img {
+    width: 180px;
+    min-width: 160px;
+    border-radius: 26px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    object-fit: cover;
+}
+
+.download-list {
+    display: grid;
+    gap: 14px;
+}
+
+.download-list li {
+    list-style: none;
+}
+
+.download-list a {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: #fff;
+    padding: 18px 22px;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: transform .3s ease, border-color .3s ease, background .3s ease;
+}
+
+.download-list a:hover {
+    transform: translateX(4px);
+    border-color: #00ffd5;
+    background: rgba(0, 255, 213, 0.12);
+}
+
+.download-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 16px;
+    display: grid;
+    place-items: center;
+    background: rgba(0, 255, 213, 0.15);
+    color: #00ffd5;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
 .platform-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
